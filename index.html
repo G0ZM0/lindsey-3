@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lindsey, You Are the Best!</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <h1>Princess lindsey</h1>
+    <p>Zaid loves you more than anything!</p>
+     
+    <!-- Include your images -->
+    <div class="images">
+        <img src="20240816_124406.jpg" alt="Zaid" class="profile-pic">
+        <img src="remix-5fa1a5ca-a446-42d3-a434-e31122a11576.png" alt="Lindsey" class="profile-pic">
+    </div>
+
+    <button class="heart-button" onclick="showLove()">
+        <img src="4k-tablet-pink-heart-3mu31jrm85vr07zd.jpg" alt="Heart">
+    </button>
+
+    <div class="message" id="message">Lindsey, You are the BEST EVER!</div>
+
+    <div class="hearts" id="hearts">
+        <span class="heart">💖</span>
+        <span class="heart">💓</span>
+        <span class="heart">💗</span>
+        <span class="heart">💞</span>
+        <span class="heart">💘</span>
+    </div>
+
+    <script>
+        function showLove() {
+            document.getElementById('message').style.visibility = 'visible';
+            document.getElementById('hearts').style.visibility = 'visible';
+        }
+    </script>
+</body>
+</html>
